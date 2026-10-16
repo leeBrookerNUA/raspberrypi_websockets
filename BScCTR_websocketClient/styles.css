@@ -1,0 +1,25 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.with_third {
+    width: 30vw;
+}
+
+label {
+    width: 150px;
+}
+
+#submit {
+    margin-left: 4px;
+}

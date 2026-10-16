@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+CTR_websockets.egg-info/PKG-INFO
+CTR_websockets.egg-info/SOURCES.txt
+CTR_websockets.egg-info/dependency_links.txt
+CTR_websockets.egg-info/requires.txt
+CTR_websockets.egg-info/top_level.txt

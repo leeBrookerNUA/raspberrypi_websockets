@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket Client</title>
+    <script src="websocket.js" defer> </script>
+    <script src="pageEditor.js" defer> </script>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="container with_third">
+        <div class="container horizontal">
+            <label for="name">What's your name?</label>
+            <input id="name" name="name" type="text" />
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <div class="container with_third">
+        <div class="container horizontal">
+            <label for="message">Message</label>
+            <input id="message" name="message" type="text" />
+        </div>
+        <button id="send"> Send Message </button>
+        <div id="log" class="container"></div>
+    </div>
+
+    <div class="container horizontal with_third">
+        <button id="ledToggle">Toggle Led</button>
+    </div>
+        
+</body>
+
+</html>
